@@ -59,7 +59,7 @@
 				if ($el.css("position") !== "fixed" && scrollPosition > (currentTopPosition + settings.offset) && rightDirection && settings.reset === false) {
 					// Fix the element.
 					$el.css("position", "fixed");
-					$el.css("top", "" + settings.topMargin + "px");
+					$el.css("bottom", "" + settings.topMargin + "px");
 					$el.css("z-index", "" + settings.zIndex);
 
 					if (settings.sameDimension) {
